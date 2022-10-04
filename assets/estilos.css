@@ -197,9 +197,7 @@ position: absolute;
     border-radius: 15px;
  }
 .foot {
-    
     text-align: center;
-    box-shadow: 0px 0px 4px var(--yel); 
 }
 .svgfacebook, .svgfacebook:visited, .svgfacebook:link {
     color: rgb(0,144,240);
@@ -246,4 +244,11 @@ position: absolute;
         left:0;
     }
 
+}
+
+.btnrs {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
