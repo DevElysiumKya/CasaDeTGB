@@ -1,0 +1,209 @@
+:root {
+    --oran: rgb(246, 155, 17);
+    --yel: rgb(244,244,0);
+}
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    background: linear-gradient(-45deg, var(--oran) 30%, #111 30%, #111 90%, var(--oran) 90%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.bg-2 {
+    height: 420px;
+}
+/*--------------------------*/
+/*   Super Slider Style SSS */
+/*--------------------------*/
+.container {
+    width: 100%;
+    height: fit-content;
+}
+.carousel {
+    min-height: 360px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 360px;
+    height: 360px;
+}
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    border-radius: 36px;
+}
+
+h2, h3 {
+    text-align: center;
+padding: 0;
+margin: 0;
+}
+.so {
+    font-weight: bold;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+}
+#ti {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 0px 0px 10px #000;
+}
+#subti {
+    color: #fff;
+    font-size: 26px;
+    text-shadow: 0px 0px 10px #000;
+}
+.row {
+    margin-bottom: 0px;
+}
+.carousel .indicators .indicator-item {
+    top: 18px;
+    background: black;
+    margin-right: 7px;
+}
+.carousel .indicators .indicator-item.active {
+    box-shadow: 0px 0px 10px white;
+}
+/*--------------------------*/
+/*  FIRE ANIMATION WITH LOGO*/
+/*--------------------------*/
+  .mo-fire {
+    z-index: 1;
+    height: 350px;
+    width: auto;
+    position: relative;
+    top: -64px;
+    left: -40px;
+    text-align: center;
+  }
+  .mo-fire svg {
+    height: 100%;
+    width: auto;
+    position: relative
+  }
+  .flame {
+    animation-name: flamefly;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    transform-origin: 50% 50% 0;
+  }
+  .flame.one {
+    animation-delay: 1s;
+    animation-duration: 3s;
+  }
+  .flame3.two{
+    animation-duration: 5s;
+    animation-delay: 1s;
+  }
+  .flame-main {
+    animation-name: flameWobble;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  .flame-main.one {
+    animation-duration: 4s;
+    animation-delay: 1s;
+  }
+  .flame-main.two {
+    animation-duration: 3s;
+    animation-delay: 2s;
+  }
+  .flame-main.three {
+    animation-duration: 2.1s;
+    animation-delay: 3s;
+  }
+  .flame-main.four {
+    animation-duration: 3.2s;
+    animation-delay: 4s;
+  }
+  .flame-main.five {
+    animation-duration: 2.5s;
+    animation-delay: 5s;
+  }
+  @keyframes flameWobble {
+    50% {
+      transform: scale(1,1.2) translate(0, -30px) rotate(-2deg);
+    }
+  }
+  @keyframes flamefly {
+    0%{
+      transform: translate(0) rotate(180deg);
+    }
+     50% {
+       opacity: 1;
+    }
+    100% {
+      transform: translate(-20px, -100px) rotate(180deg);
+      opacity: 0;
+    }}
+.slogo {
+    text-align: center;
+        z-index: 3;
+        position: absolute;
+    margin-top: 0px;
+    left: -144px;
+    right: 0px;
+    text-align: center;
+    }
+.svglogo {
+z-index: 7;
+position: absolute;
+    top: -210px;
+    }
+/*--------------------------*/
+/*         FOOTER           */
+/*--------------------------*/
+
+.footer {
+    z-index: 5;
+    position:inherit;
+    background: #111;
+    padding: 10px;
+    color:aliceblue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+
+.slogo, .foot {
+    font-size: 1.4rem;
+    padding: 0.9rem;
+    border-radius: 15px;
+ }
+.foot {
+    
+    text-align: center;
+    box-shadow: 0px 0px 4px var(--yel); 
+}
+.svgfacebook, .svgfacebook:visited, .svgfacebook:link {
+    color: rgb(0,144,240);
+    padding-left: 10px;
+    padding-top: 10px;
+ }
+ .svgwhatsapp, .svgwhatsapp:visited, .svgwhatsapp:link {
+    color: rgb(0, 179, 54);
+    padding-left: 10px;
+    padding-top: 10px;
+ }
