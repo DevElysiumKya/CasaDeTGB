@@ -51,7 +51,7 @@
     <h3 class="so">
         ¡Consiente a tu paladar con uno de nuestros platillos!
     </h3>
-    <p class="slogo">
+    <p class="slogo" onmousedown="burning.play()">
         <div class="mo-fire">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                    width="125px" height="189.864px" viewBox="0 0 125 189.864" enable-background="new 0 0 125 189.864" xml:space="preserve">
@@ -72,10 +72,15 @@
               <path class="flame two" fill="#F36E21" d="M54.918,104.595c0,0-3.959,6.109-1.24,8.949C56.93,113.256,52.228,107.329,54.918,104.595z"/>
             </svg>  
             </div></p>
-            <p class="slogo">
-        <svg class="svglogo" width="144" height="144"><use xlink:href="#svglogo">          
+            <p class="slogo" onmousedown="burning.play()">
+                <svg class="svglogo" width="144" height="144"><use xlink:href="#svglogo">      
         </use></svg>
+            <script>
+                var burning = new Audio();
+                burning.src = "./assets/Fireburn.mp3";
+            </script>
             </p>
+        
     </div>
     <div class="container">
         <br>
@@ -139,7 +144,7 @@
             </div>
         </div>
     </div>
-    <div class="fire-init">
+    <div class="fire-init" onmousedown="burning.play()">
         <br><br><br><br>
         <p class="slogo">
             <div class="mo-fire">
@@ -164,7 +169,6 @@
                 </div></p>
                 <div id="tio">LA CASA DE TOÑO</div>
                 <h2 class="subti">Grill and Burguers </h2>
-                <audio autoplay src="./assets/Fireburn.mp3" type="audio/mp3" preload="none"></audio>
     </div>
     <div class="fire-init2">   
     </div>
