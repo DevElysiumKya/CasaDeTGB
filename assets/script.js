@@ -22,71 +22,86 @@ function showbase(){
     document.getElementById("closex2").style.display = "block"; 
     document.getElementById('fire-init2').style.animation = "";
 }
+function menus(){
+    document.getElementById('f2img').style.display="block";
+    document.getElementById('f3img').style.display="none";
+}
 function paquetes(){
+    document.getElementById('f3img').style.display="block";
+    document.getElementById('f2img').style.display="none";
 }
 function showm1(){
     document.getElementById("f2img").src = "./assets/Menu1.jpeg";
     showbase();
+    menus();
 }
 function showm2(){
     document.getElementById("f2img").src = "./assets/Menu2.jpeg";
     showbase();
+    menus();
 }
 function showm3(){
     document.getElementById("f2img").src = "./assets/Menu3.jpeg";
     showbase();
+    menus();
 }
 function showm4(){
     document.getElementById("f2img").src = "./assets/Menu4.jpeg";
     showbase();
+    menus();
 }
 function showm5(){
     document.getElementById("f2img").src = "./assets/Menu5.jpeg";
     showbase();
+    menus();
 }
 function showm6(){
     document.getElementById("f2img").src = "./assets/Menu6.jpeg";
     showbase();
+    menus();
 }
 function showm7(){
     document.getElementById("f2img").src = "./assets/Menu7.jpeg";
     showbase();
+    menus();
 }
 function showm8(){
     document.getElementById("f2img").src = "./assets/Menu8.jpeg";
     showbase();
+    menus();
 }
 function showm9(){
     document.getElementById("f2img").src = "./assets/Menu9.jpeg";
     showbase();
+    menus();
 }
 function showp1(){
-    document.getElementById("f2img").src = "./assets/Paq1.jpeg";
+    document.getElementById("f3img").src = "./assets/Paq1.jpeg";
     showbase();
     paquetes();
 }
 function showp2(){
-    document.getElementById("f2img").src = "./assets/Paq2.jpeg";
+    document.getElementById("f3img").src = "./assets/Paq2.jpeg";
     showbase();
     paquetes();
 }
 function showp3(){
-    document.getElementById("f2img").src = "./assets/Paq3.jpeg";
+    document.getElementById("f3img").src = "./assets/Paq3.jpeg";
     showbase();
     paquetes();
 }
 function showp4(){
-    document.getElementById("f2img").src = "./assets/Paq4.jpeg";
+    document.getElementById("f3img").src = "./assets/Paq4.jpeg";
     showbase();
     paquetes();
 }
 function showp5(){
-    document.getElementById("f2img").src = "./assets/Paq5.jpeg";
+    document.getElementById("f3img").src = "./assets/Paq5.jpeg";
     showbase();
     paquetes();
 }
 function showp6(){
-    document.getElementById("f2img").src = "./assets/Paq6.jpeg";
+    document.getElementById("f3img").src = "./assets/Paq6.jpeg";
     showbase();
     paquetes();
 }

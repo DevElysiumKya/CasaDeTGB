@@ -253,7 +253,7 @@ position: absolute;
   height: auto;
   border-radius: 20px;
 }
-#f2img {
+#f2img, #f3img {
   width: 100%;
   max-width: 640px;
   margin-inline: auto;
@@ -264,8 +264,8 @@ position: absolute;
 
 @media (max-width: 540px){
   #f2img {
-width: 112%;
-left: -10%;
+width: 118%;
+left: -16%;
 border-radius: 14px;
   }
   #closex {
