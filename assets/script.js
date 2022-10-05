@@ -22,6 +22,10 @@ function showbase(){
     document.getElementById("closex2").style.display = "block"; 
     document.getElementById('fire-init2').style.animation = "";
 }
+function paquetes(){
+    document.getElementById("f2img").style.width = "110%";
+    document.getElementById("f2img").style.left ="-9%";
+}
 function showm1(){
     document.getElementById("f2img").src = "./assets/Menu1.jpeg";
     showbase();
@@ -61,24 +65,30 @@ function showm9(){
 function showp1(){
     document.getElementById("f2img").src = "./assets/Paq1.jpeg";
     showbase();
+    paquetes();
 }
 function showp2(){
     document.getElementById("f2img").src = "./assets/Paq2.jpeg";
     showbase();
+    paquetes();
 }
 function showp3(){
     document.getElementById("f2img").src = "./assets/Paq3.jpeg";
     showbase();
+    paquetes();
 }
 function showp4(){
     document.getElementById("f2img").src = "./assets/Paq4.jpeg";
     showbase();
+    paquetes();
 }
 function showp5(){
     document.getElementById("f2img").src = "./assets/Paq5.jpeg";
     showbase();
+    paquetes();
 }
 function showp6(){
     document.getElementById("f2img").src = "./assets/Paq6.jpeg";
     showbase();
+    paquetes();
 }
