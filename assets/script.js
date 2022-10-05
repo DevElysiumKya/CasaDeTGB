@@ -23,8 +23,6 @@ function showbase(){
     document.getElementById('fire-init2').style.animation = "";
 }
 function paquetes(){
-    document.getElementById("f2img").style.width = "110%";
-    document.getElementById("f2img").style.left ="-9%";
 }
 function showm1(){
     document.getElementById("f2img").src = "./assets/Menu1.jpeg";

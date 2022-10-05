@@ -255,7 +255,7 @@ position: absolute;
 }
 #f2img {
   width: 100%;
-  max-width: 800px;
+  max-width: 640px;
   margin-inline: auto;
   display: none;
   position: relative;
@@ -264,8 +264,8 @@ position: absolute;
 
 @media (max-width: 540px){
   #f2img {
-width: 122%;
-left: -20%;
+width: 112%;
+left: -10%;
 border-radius: 14px;
   }
   #closex {
