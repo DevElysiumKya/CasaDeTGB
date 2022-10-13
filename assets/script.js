@@ -75,6 +75,11 @@ function showm9(){
     showbase();
     menus();
 }
+function showm10(){
+    document.getElementById("f2img").src = "./assets/Menu10.jpeg";
+    showbase();
+    menus();
+}
 function showp1(){
     document.getElementById("f3img").src = "./assets/Paq1.jpeg";
     showbase();
